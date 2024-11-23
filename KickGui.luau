@@ -1,5 +1,5 @@
 local Player = game.Players.LocalPlayer
-local CoreGUI = game.CoreGui
+local CoreGUI = Player.PlayerGui
 local KickGUI = Instance.New("ScreenGUI",PlayerGUI)
 KickGUI.Name = MainGUI
 local KickFrame = Instance.New("Frame",CoreGUI.MainGUI)
